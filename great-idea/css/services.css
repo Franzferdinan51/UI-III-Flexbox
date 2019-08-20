@@ -1,0 +1,32 @@
+nav {
+	width: 90%;
+	position: fixed;
+	background-color: rgb(2, 127, 209);
+	z-index: 3;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 38px;
+}
+.nav-items {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+
+}
+
+.nav-item {
+	text-decoration: none;
+	padding: 30px 50px;
+	vertical-align: middle;
+	color: rgba(175, 172, 172, 0.8);
+	text-shadow: 1px 1px 1px #111;
+	font-weight: bold;
+	transition: color 0.3s ease-in, text-shadow 0.3s ease-in;
+	/*I spent too long trying to use vertical-align: center because I though I knew what I was doing*/
+}
+
+.nav-item:hover {
+	color: #111;
+	text-shadow: 2px 2px 1px rgb(175, 172, 172);
+}

@@ -68,12 +68,16 @@ h1, h2, h3, h4, h5 {
 	width:100%;
 }
 nav{
+padding: 50px 0 0 0;
 display: inline-flex;
 justify-content: space-evenly;
 width: 800px;
 align-content: center;
 margin-left: 300px;
 margin-top: 25px;
+position: relative;
+margin-bottom: -500px;
+
 }
 
 .section2-1{
@@ -93,14 +97,19 @@ margin-top: 25px;
 .logo{
 display: inline-flex;
 margin-left: 1050px;
+position: relative;
+top: -25px;
 
 
 }
 .button{
 	display: inline-flexbox;
 	margin-left: 600px;
-	font-size: 45px;
-	padding-top:100px;
+	font-size: 60px;
+	padding-top:2px;
+	position: relative;
+	top:325px;
+	
 }
 .middle-img{
 	justify-content: center;
@@ -108,14 +117,10 @@ margin-left: 1050px;
 	margin-bottom:25px
 }
 .header-img{
-	margin-left: 970px;
-	z-index: 10000000px;
-	
+margin-left:900px;
+
 }
-.buttonimg{
-	display: flex;
-	flex-direction: row;
-}
+
 footer{
 	margin-bottom: 100px;
 	margin-top: 50px;
@@ -136,3 +141,8 @@ br{
 h3{
 	margin-left: 300px;
 }
+buttonimg{
+	position: relative;
+	top: -100px;
+}
+

@@ -1,0 +1,18 @@
+.nav{
+    justify-content: space-between;
+    font-size: 25px;
+    color:transparent grey;
+    border: 3px solid red;
+}
+.container{
+    display:flex;
+    margin: 20px;
+    background-color: aqua;
+}
+.services{
+    
+    border:3px solid red;
+
+}
+
+
